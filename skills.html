@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+        rel="stylesheet" />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+        <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+        <script>
+        tailwind.config = {
+        darkMode: "class",
+        theme: {
+            fontFamily: {
+            sans: ["Roboto", "sans-serif"],
+            body: ["Roboto", "sans-serif"],
+            mono: ["ui-monospace", "monospace"],
+            },
+        },
+        corePlugins: {
+            preflight: false,
+        },
+        };
+</script>
+    </head>
+    <body>
+        <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+<!-- Main navigation container -->
+<!-- Second navbar -->
+<!-- Main navigation container -->
+<nav class="relative flex w-full flex-nowrap items-center justify-between bg-neutral-800 py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:flex-wrap lg:justify-start lg:py-4" data-te-navbar-ref>
+  <div class="flex w-full flex-wrap items-center justify-between px-3">
+    <div class="mx-2">
+      <!-- Avatar image as a button -->
+      <a href="index.html">
+        <img src="https://source.unsplash.com/600x400/?R,R" alt="Avatar" class="h-10 w-10 rounded-full">
+      </a>
+    </div>
+    <!-- Hamburger button for mobile view -->
+    <button
+      class="block border-0 bg-transparent px-2 text-neutral-300 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+      type="button"
+      data-te-collapse-init
+      data-te-target="#navbarSupportedContent10"
+      aria-controls="navbarSupportedContent10"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <!-- Hamburger icon -->
+      <span class="[&gt;svg]:w-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="h-7 w-7">
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg>
+      </span>
+    </button>
+
+    <!-- Collapsible navbar container -->
+    <div
+      class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+      id="navbarSupportedContent10"
+      data-te-collapse-item>
+      <!-- Left links -->
+      <ul
+        class="list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row"
+        data-te-navbar-nav-ref>
+        <!-- Home link -->
+        <li
+          class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            aria-current="page"
+            href="Projects.html"
+            data-te-nav-link-ref
+            >Projects</a
+          >
+        </li>
+        <!-- Features link -->
+        <li
+          class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            href="skills.html"
+            data-te-nav-link-ref
+            >Skills</a
+          >
+        </li>
+        <!-- Pricing link -->
+        <li
+          class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            href="about.html"
+            data-te-nav-link-ref
+            >About</a
+          >
+        </li>
+        <!-- About link -->
+        <li
+          class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            href="contact.html"
+            data-te-nav-link-ref
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Container for demo purpose -->
+<div class="container my-24 mx-auto md:px-6">
+    <!-- Section: Design Block -->
+    <section class="mb-32 text-center lg:text-left">
+      <div class="py-0 md:px-6 md:px-12">
+        <div class="container mx-auto xl:px-32">
+          <div class="flex grid items-center lg:grid-cols-2">
+            <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+              <div
+                class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14">
+                <h2 class="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+                  Web Development
+                </h2>
+                <p class="mb-4 font-semibold">Front-End and Back-END</p>
+                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                    In the span of three years, I've dedicated myself to
+                     the fascinating realm of web development.
+                    Starting with a curiosity-driven exploration
+                </p>
+                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                     I've delved into the intricacies of HTML, CSS,
+                      and JavaScript, gradually expanding my skill set to encompass a diverse range of technologies.
+                       Along the way, I've tackled challenges head-on, learning and growing with each obstacle overcome. 
+                       From building meaningful projects to cultivating expertise across frontend and backend development,
+                        my journey has been marked by continuous learning, resilience, and a deep passion for innovation. 
+                        As I look ahead, I'm excited to continue pushing the boundaries
+                     of what's possible and to embark on new adventures in the ever-evolving landscape of web development.
+                </p>
+                <ul class="flex justify-center lg:justify-start">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="md:mb-12 lg:mb-0">
+              <img src="https://source.unsplash.com/600x400/?code,web"
+                class="lg:rotate-[0deg] w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+  </div>
+  <!-- Container for demo purpose -->
+
+
+  <!-- Container for demo purpose -->
+<div class="container my-24 mx-auto md:px-6">
+    <!-- Section: Design Block -->
+    <section class="mb-32 text-center lg:text-left">
+      <div class="py-0 md:px-6 md:px-12">
+        <div class="container mx-auto xl:px-32">
+          <div class="flex grid items-center lg:grid-cols-2">
+            <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+              <div
+                class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14">
+                <h2 class="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+                  Digital Art
+                </h2>
+                <p class="mb-4 font-semibold">Illustrations ad Vector art</p>
+                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                    Over the past four years, my journey in digital art has been a captivating 
+                    exploration of creativity and expression. I have practiced on various platforms.
+                </p>
+                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                    From mastering digital tools to 
+                    refining my artistic vision, every moment has been a step towards realizing
+                     my passion for visual storytelling. Through countless hours of practice and 
+                     experimentation, I've honed my skills in digital illustration, animation, 
+                     and graphic design, discovering new techniques and pushing the boundaries 
+                     of my imagination. Each artwork is a testament to my journey, a reflection of 
+                    my growth as an artist and a reminder of the endless possibilities that await
+                     in the world of digital creation.
+                </p>
+                <ul class="flex justify-center lg:justify-start">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="md:mb-12 lg:mb-0">
+              <img src="https://source.unsplash.com/600x400/?colors,art"
+                class="lg:rotate-[0deg] w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+  </div>
+  <!-- Container for demo purpose -->
+
+
+
+
+
+
+  <!-- Container for demo purpose -->
+<div class="container my-24 mx-auto md:px-6">
+    <!-- Section: Design Block -->
+    <section class="mb-32 text-center lg:text-left">
+      <div class="py-0 md:px-6 md:px-12">
+        <div class="container mx-auto xl:px-32">
+          <div class="flex grid items-center lg:grid-cols-2">
+            <div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+              <div
+                class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[25px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14">
+                <h2 class="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+                  Content Writing
+                </h2>
+                <p class="mb-4 font-semibold">Academic and Fiction</p>
+                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                    In the past five years, my journey in content writing has been a
+                    captivating voyage of words and ideas. I started with poetry and fiction writing.
+                </p>
+                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                   From crafting compelling narratives to refining my voice, each
+                      piece of content has been an opportunity to connect with audiences and share stories
+                       that resonate. Through meticulous research and creative exploration, I've honed my
+                        skills in various forms of writing, from blog posts to social media content, each 
+                        one a testament to my dedication to the craft. As I continue to evolve as a writer, 
+                        I'm excited to explore new topics, challenge myself creatively, and make meaningful
+                         connections through the power of words.
+
+
+                </p>
+                <ul class="flex justify-center lg:justify-start">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                  
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"
+                      class="w-5 text-primary dark:text-primary-400">
+                      <path fill="currentColor"
+                        d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="md:mb-12 lg:mb-0">
+              <img src="https://source.unsplash.com/600x400/?books, writer"
+                class="lg:rotate-[0deg] w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+  </div>
+  <!-- Container for demo purpose -->
+
+
+
+
+
+
+
+        
+     <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+<!--Footer container-->
+<footer
+class="flex flex-col items-center bg-neutral-900 text-center text-white">
+<div class="container px-6 pt-6">
+  <div class="mb-6 flex justify-center">
+    
+    
+    <a
+      href="#!"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+      </svg>
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/roza-perween-6734351b7/"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+      </svg>
+    </a>
+
+    <a
+      href="https://github.com/Roza133"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+      </svg>
+    </a>
+  </div>
+</div>
+
+<!--Copyright section-->
+<div
+
+
+  class="w-full p-4 text-center"
+  style="background-color: rgba(0, 0, 0, 0.2)">
+  rozaperween555@gmail.com
+  <a class="text-whitehite" href="https://tw-elements.com/"
+    ></a
+  >
+</div>
+<div
+
+
+  class="w-full p-4 text-center"
+  style="background-color: rgba(0, 0, 0, 0.2)">
+  © 2024 Copyright:
+  <a class="text-whitehite" href="https://tw-elements.com/"
+    >Roza Perween</a
+  >
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+      <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      
+      <script src="" async defer></script>
+      <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+      <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+  </body>
+</html>
